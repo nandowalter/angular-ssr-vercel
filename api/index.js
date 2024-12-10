@@ -1,3 +1,2 @@
-const server = import('../dist/angular-ssr-vercel/server/main.server.mjs');
-
-module.exports = server.app;
+export default import('../dist/angular-ssr-vercel/server/main.server.mjs')
+  .then(module => module.app());
