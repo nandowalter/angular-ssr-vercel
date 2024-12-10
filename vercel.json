@@ -2,7 +2,6 @@
     "version": 2,
     "public": true,
     "name": "angular-ssr-vercel",
-    "devCommand": "node dist/angular-ssr-vercel/server/main.server.mjs",
     "rewrites": [
       { "source": "/(.*)", "destination": "/api" }
     ],
